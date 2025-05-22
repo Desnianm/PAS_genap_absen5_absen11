@@ -4,11 +4,9 @@ plugins {
 
 android {
     namespace = "com.example.pas_genap_absen5_absen11"
-<<<<<<< HEAD
-    compileSdk = 34
-=======
+
+
     compileSdk = 35
->>>>>>> origin/master
 
     defaultConfig {
         applicationId = "com.example.pas_genap_absen5_absen11"
@@ -36,11 +34,12 @@ android {
 }
 
 dependencies {
-<<<<<<< HEAD
-
-=======
+    implementation ("androidx.recyclerview:recyclerview:1.3.1")
+    implementation ("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.15.1")
     implementation ("com.google.android.material:material:1.11.0")
->>>>>>> origin/master
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
