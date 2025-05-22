@@ -4,7 +4,11 @@ plugins {
 
 android {
     namespace = "com.example.pas_genap_absen5_absen11"
+<<<<<<< HEAD
     compileSdk = 34
+=======
+    compileSdk = 35
+>>>>>>> origin/master
 
     defaultConfig {
         applicationId = "com.example.pas_genap_absen5_absen11"
@@ -32,7 +36,11 @@ android {
 }
 
 dependencies {
+<<<<<<< HEAD
 
+=======
+    implementation ("com.google.android.material:material:1.11.0")
+>>>>>>> origin/master
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
